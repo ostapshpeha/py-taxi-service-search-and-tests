@@ -122,7 +122,6 @@ class DriverViewsTests(TestCase):
             license_number="ABC12345",
         )
         self.client.force_login(self.user)
-        self.user = user
 
     def test_driver_detail(self):
         url = reverse("taxi:driver-detail", args=[self.user.pk])
