@@ -7,7 +7,7 @@ from taxi.models import Manufacturer, Car, Driver
 class ModelTests(TestCase):
     @classmethod
     def setUpTestData(cls):
-        username = "Test",
+        username = "Test"
         license_number = "TES12346"
         password = "test123"
         # Set up non-modified objects used by all test methods
